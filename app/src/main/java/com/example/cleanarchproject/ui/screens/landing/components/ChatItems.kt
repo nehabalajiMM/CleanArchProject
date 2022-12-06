@@ -28,14 +28,6 @@ fun ChatsItemView(chat: DChat) {
     Box(
         modifier = Modifier
             .fillMaxWidth()
-//            .clickable {
-//            loadNextScreen(
-//                DUser(
-//                    id = 2,
-//                    chat.name,
-//                    chat.url
-//                )
-//            ) }
             .padding(top = 4.dp, bottom = 4.dp)
     ) {
         Row(modifier = Modifier.padding(10.dp)) {
