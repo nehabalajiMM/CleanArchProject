@@ -14,3 +14,5 @@ dependencyResolutionManagement {
 }
 rootProject.name = "CleanArchProject"
 include ':app'
+include ':domain'
+include ':data'
