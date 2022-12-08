@@ -5,5 +5,6 @@ data class Chat(
     val url: String,
     val chat: String,
     val time: String,
-    val unreadCount: String
+    val unreadCount: String,
+    val chatId: Int = 0
 )
