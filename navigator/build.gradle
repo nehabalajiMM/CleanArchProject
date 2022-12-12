@@ -3,7 +3,6 @@ plugins {
     id 'org.jetbrains.kotlin.android'
     id 'kotlin-kapt'
     id 'com.google.dagger.hilt.android'
-    id 'com.google.gms.google-services'
 }
 
 android {
@@ -39,10 +38,6 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.5.1'
     implementation 'com.google.android.material:material:1.7.0'
     implementation 'androidx.navigation:navigation-common-ktx:2.5.3'
-    implementation project(path: ':data')
-    implementation project(path: ':chat')
-    implementation project(path: ':ui-authentication')
-    implementation project(path: ':domain')
     implementation 'androidx.navigation:navigation-runtime-ktx:2.5.3'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.4'

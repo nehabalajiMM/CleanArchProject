@@ -10,8 +10,7 @@ sealed class WhatsappScreen(
 
     object ChatList : WhatsappScreen("chatsList")
     object ChatScreen : WhatsappScreen("chatScreen")
-    object Registration : WhatsappScreen("registration")
-    object Login : WhatsappScreen("login")
+    object Auth : WhatsappScreen("auth")
 }
 
 sealed class WhatsappRoute(val name: String) {

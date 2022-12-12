@@ -1,4 +1,4 @@
-package com.example.ui_authentication.ui.theme // ktlint-disable package-name
+package com.example.cleanarchproject.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

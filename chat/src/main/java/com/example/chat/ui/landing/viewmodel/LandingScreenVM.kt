@@ -1,4 +1,4 @@
-package com.example.cleanarchproject.ui.screens.landing.viewmodel
+package com.example.chat.ui.landing.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
@@ -8,7 +8,7 @@ import com.example.domain.models.Chat
 import com.example.domain.usecases.AddChatUseCase
 import com.example.domain.usecases.FetchChatsUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
-import kotlinx.coroutines.flow.*
+import kotlinx.coroutines.flow.* // ktlint-disable no-wildcard-imports
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 

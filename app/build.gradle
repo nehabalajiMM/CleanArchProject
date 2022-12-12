@@ -61,6 +61,7 @@ dependencies {
     implementation project(path: ':domain')
     implementation project(path: ':chat')
     implementation project(path: ':navigator')
+    implementation project(path: ':ui-authentication')
     implementation 'com.google.firebase:firebase-auth-ktx:21.1.0'
     implementation 'com.google.firebase:firebase-firestore-ktx:24.4.1'
     implementation 'com.google.firebase:firebase-storage-ktx:20.1.0'
@@ -81,5 +82,5 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1"
 
     implementation platform('com.google.firebase:firebase-bom:31.1.1')
-    implementation 'com.google.firebase:firebase-auth-ktx'
+    api 'com.google.firebase:firebase-auth-ktx'
 }

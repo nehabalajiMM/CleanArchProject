@@ -1,4 +1,4 @@
-package com.example.cleanarchproject.ui.screens.landing
+package com.example.chat.ui.landing
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.PaddingValues
@@ -11,8 +11,8 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
-import com.example.cleanarchproject.ui.screens.landing.components.ChatsItemView
-import com.example.cleanarchproject.ui.screens.landing.viewmodel.LandingScreenVM
+import com.example.chat.ui.landing.components.ChatsItemView
+import com.example.chat.ui.landing.viewmodel.LandingScreenVM
 import com.example.data.mappers.toDChat
 
 @Composable

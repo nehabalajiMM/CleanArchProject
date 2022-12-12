@@ -1,4 +1,4 @@
-package com.example.cleanarchproject.ui.screens.landing.components
+package com.example.chat.ui.landing.components
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.* // ktlint-disable no-wildcard-imports
@@ -16,7 +16,6 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
-import com.example.cleanarchproject.R
 import com.example.cleanarchproject.ui.theme.Typography
 import com.example.cleanarchproject.ui.theme.colorGreen
 import com.example.data.models.DChat
@@ -31,7 +30,7 @@ fun ChatsItemView(chat: DChat) {
             contentDescription = null,
             contentScale = ContentScale.Crop,
             modifier = Modifier.clip(CircleShape).size(40.dp),
-            placeholder = painterResource(id = R.drawable.ic_launcher_background)
+            placeholder = painterResource(id = com.example.chat.R.drawable.placeholder_profile)
         )
         Spacer(modifier = Modifier.size(12.dp))
         Column(modifier = Modifier.weight(3.0f, true)) {
