@@ -14,3 +14,8 @@ dependencyResolutionManagement {
 }
 rootProject.name = "CleanArchProject"
 include ':app'
+include ':domain'
+include ':data'
+include ':navigator'
+include ':chat'
+include ':ui-authentication'
