@@ -1,4 +1,4 @@
-package com.example.cleanarchproject.ui.theme
+package com.example.cleanarchproject.ui.theme // ktlint-disable filename
 
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material.MaterialTheme
@@ -7,9 +7,9 @@ import androidx.compose.material.lightColors
 import androidx.compose.runtime.Composable
 
 private val DarkColorPalette = darkColors(
-    primary = Purple200,
-    primaryVariant = Purple700,
-    secondary = Teal200
+    primary = colorDarkGreen,
+    primaryVariant = colorGreen,
+    secondary = colorTopBar
 )
 
 private val LightColorPalette = lightColors(
@@ -32,11 +32,7 @@ fun CleanArchProjectTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     content: @Composable () -> Unit
 ) {
-    val colors = if (darkTheme) {
-        DarkColorPalette
-    } else {
-        LightColorPalette
-    }
+    val colors = DarkColorPalette
 
     MaterialTheme(
         colors = colors,
